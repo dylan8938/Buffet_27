@@ -8,22 +8,14 @@ import java.util.Random;
 
 class starter {
 	public static void main(String args[]) {
-		System.out.println("Enter 2 numbers to create a range for your random number.");
-		System.out.print("Please enter an integer");
+		int a = (int)(Math.random() * 10);
+		int b = (int)(Math.random() * 100) + 1;
+		double c = Math.random() + 2.5;
+		double d = Math.random() * (589 - 14) + 14;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
 
-		Scanner sc = new Scanner(system.in);
-		int small = sc.nextInt();
-
-		System.out.print("Please enetr a 2nd integer (larger than first):");
-		int large + sc.nextInt();
-
-		System.out.println("Your range is " + small + "to" + large);
-		int num1 + (int)(Math.random()*(large-small)+small);
-		int num2 + (int)(Math.random()*(large-small)+small);
-		int num3 + (int)(Math.random()*(large-small)+small);
-		int num4 + (int)(Math.random()*(large-small)+small);
-		int num5 + (int)(Math.random()*(large-small)+small);
-		System.out.println(num1 + "," + num2 + "," + num3 + "," + num4 + "," + num5);
-		 )
 	}
 }
