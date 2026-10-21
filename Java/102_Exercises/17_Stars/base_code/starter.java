@@ -1,6 +1,6 @@
 /*
- *	Author:
- *  Date:
+ *	Author: Dylan Glandian
+ *  Date:10/21/26
  *	Collaborator(s): 
 */
 
@@ -8,8 +8,11 @@ import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Please enter a width.");
+		int width = sc.nextInt();
+		System.out.print("Please enter a height.");
+		int height = sc.nextInt();
+		
 	}
 }
